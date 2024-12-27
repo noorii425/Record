@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Registration Page</h2><br>
+    <div class="login">
+    <form id="login" method="get" action="login.php">
+        <label><b> First name</b> </label>         
+        <input type="text" id="Uname" name="firstname"/> <br> <br>    
+        <label><b>Last name:</b> </label>         
+        <input type="text" id="Uname" name="lastname"/> <br> <br>  
+        <label> <b>  
+            Course :  
+            </b></label>  <br> 
+            <select>  
+            <option value="Course">Course</option>  
+            <option value="BCA">BCA</option>  
+            <option value="BBA">BBA</option>  
+            <option value="B.Tech">B.Tech</option>  
+            <option value="MBA">MBA</option>  
+            <option value="MCA">MCA</option>  
+            <option value="M.Tech">M.Tech</option>  
+            </select>  
+              
+            <br>  
+            <br>  
+            <label> <b> 
+            Gender :  
+            </b></label><br>  
+            <input type="radio"  name="male"/><label><b> Male</b></label><br>  
+            <input type="radio"  name="female"/><label><b> Female </b></label><br><br> 
+            <label><b>Phone :</b></label>   
+                 
+                  
+                <input type="text" name="country code"  value="+91" size="2"/>   
+                <input type="text" name="phone" size="10"/> <br> <br>  
+                <label><b>Address :</b></label> 
+                <br>  
+                <textarea cols="50" rows="5" value="address">  
+                </textarea>  
+                <br> <br>  
+                <label><b>Email: </b></label><br>
+                <input type="email" id="Uname" name="email"/> <br>    
+                <br> <br>  
+                <label><b>Password:</b></label>  
+                <input type="Password" id="Pass" name="pass"> <br>   
+                <br> <br>  
+                <label><b>Re-type password: </b></label>
+                <input type="Password" id="Pass" name="repass"> <br> <br>  
+                
+        <input type="button" name="log" id="log" value="Create Account" onclick="location.href='login.html';">
+        <br><br>  
+            
+    </form>
+</div>
+</body>
+</html>
